@@ -1,0 +1,26 @@
+body{
+    background-color: #b2b2b2;
+}
+.release-add-success_box{
+    width:272px;
+    height:110px;
+    background:#fff;
+    border-radius:10px;
+    position: absolute;
+    left:calc(50% - 136px);
+    top:calc(50% - 55px);
+}
+.release-add-success_box-top{
+    text-align: center;
+    height: 65px;
+    line-height: 65px;
+    font-size:14px;
+}
+.release-add-success_box-bottom{
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    border-top: 1px solid #bcbcbc;
+    color: #ea560a;
+    font-weight:bold;
+}
