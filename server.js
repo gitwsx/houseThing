@@ -29,9 +29,9 @@ console.log( viewsPath );
 app.use( '/', express.static( viewsPath ) );
 //
 ////拼接物理路径，用来指定虚拟路径的访问（静态资源文件）
-var publicPath = path.join( __dirname, 'public' );
+var publicPath = path.join( __dirname, 'static' );
 ////指定访问静态资源文件的路径
-app.use( '/public', express.static( publicPath ) );
+app.use( '/static', express.static( publicPath ) );
 
 //定义一个接口
 app.get("/login",function(req,res){
